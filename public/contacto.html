@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <header></header>
+    <main>
+        <!-- El action y method son nuevos, el POST es el metodo que voy a usar para mandar el formulario -->
+        <!-- El Action va a ser la ruta desde donde voy a tener el formulario -->
+        <form action="/contacto" method="POST" class="formulario">
+            <div>
+                <label for="nombre" class="">Nombre</label>
+                <input type="text" name="nombre" id="nombre"> <br>
+            </div>
+            <div>
+                <label for="apellido" class="">Apellido</label>
+                <input type="text" name="apellido" id="apellido"><br>
+            </div>
+            <div>
+                <label for="email" class="">Email</label>
+                <input type="email" name="email" id="email"><br>
+            </div>
+            <div>
+                <label for="celular" class="">Celular</label>
+                <input type="text" name="celular" id="celular">
+            </div><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+</body>
+</html>

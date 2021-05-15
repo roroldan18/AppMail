@@ -1,0 +1,50 @@
+header{
+    height: 200px;
+    background-image: url(../images/MMF1.png);
+    background-position: 0em -10em;
+}
+
+html, body {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100vh;
+    padding-top: 20px;
+
+    background-color:darkred;
+}
+
+h1 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 2em;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20px;
+    height: 100vh;
+
+    font-size: 3em;
+}
+
+button {
+    font-size: 1em;
+    height: 120px;
+}
+
+input, label {
+    height: 50px;
+    margin: 20px;
+    width: 300px;
+}

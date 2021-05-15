@@ -1,0 +1,20 @@
+<header></header>
+<main>
+    <form action="/compraEnviada" method="POST" class="formulario">
+
+        <div>
+            <label for="nombre" class="">Producto</label>
+            <input type="text" name="nombre" id="nombre"> <br>
+        </div>
+
+        <div>
+            <label for="cantidad" class="">Cantidad</label>
+            <input type="number" name="cantidad" id="cantidad"><br>
+        </div>
+       
+        <button type="submit">Agregar al carro</button>
+    </form>
+    <form action="/totalizarCarro" method="POST" class="formulario">
+        <button type="submit">Totalizar carro</button>
+    </form>
+</main>
